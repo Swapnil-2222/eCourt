@@ -1,0 +1,211 @@
+{
+  "applications": "*",
+  "changelogDate": "20220314131813",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "court_case",
+  "fields": [
+    {
+      "fieldName": "caseNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "villageName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "accuserName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "applicationNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "landReferenceNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstAppeal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "projectName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "courtName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "defendantName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caseDescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caseFilingDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalClaimAmount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caseOfficer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caselawyer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nextHearingDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amountDepositeInCourt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lar",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "incCompensation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amountPaidSLO",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "chequeNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "chequeDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "appealNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "courtAmount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "appealAmount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "appealDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caseStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "freefield1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "freefield2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "freefield3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastModified",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalArea",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "landAcquisitionOfficerNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "relatedClauses",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "section4NotificationDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "judgementDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "accuserLawyer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "defedantLawyer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "natureResult",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "applicationNoFileAdditionalInterest",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currentApplicationStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amountAdditionalInterestdefendantDistrictCourt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currentCaseStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bankGuaranteeDetailApplicationNo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CourtCase",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hearing",
+      "otherEntityRelationshipName": "hearing",
+      "relationshipName": "courtCase",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
